@@ -27,6 +27,7 @@ connectDatabase()
     server.timeout = 3000;
   })
   .catch((err) => {
+    console.log(err)
     console.log("database connection failed");
   });
 
